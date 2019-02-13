@@ -3,7 +3,7 @@
 package pango
 
 // #include "pango.go.h"
-// #cgo pkg-config: pango
+// #cgo pkg-config: pango gobject-2.0
 import "C"
 import "unsafe"
 
