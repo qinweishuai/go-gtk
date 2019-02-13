@@ -59,7 +59,7 @@ func ContextFromUnsafe(context unsafe.Pointer) *Context {
 }
 
 func (v *Layout) Unref() {
-	C.g_object_unref(C.gpointer(v.GLayout))
+// 	 C.g_object_unref(C.gpointer(v.GLayout))
 }
 
 func (v *Layout) SetWidth(width int) {
